@@ -1,0 +1,233 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+
+nav{
+width: 100%;
+height: 75px;
+line-height: 75px;
+padding: 0px 100px;
+position: fixed;
+z-index: 999;
+background-image: linear-gradient(90deg, rgba(179,58,18,1) 0%, rgba(194,23,13,1) 20%, rgba(228,53,8,1) 100%);
+}
+
+.logo p{
+font-size: 30px;
+font-weight: bold;
+float: left;
+color: white;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+cursor: pointer;
+
+}
+
+nav ul{
+float: right;
+
+}
+
+nav li{
+display: inline-block;
+list-style: none;
+
+}
+
+nav li a{
+font-size: 18px;
+text-transform: uppercase;
+padding: 0px 30px;
+text-decoration: none;
+color: white;
+
+}
+
+.line{
+
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+
+body{
+    background-color: bisque;
+}
+
+.DivSize{
+
+    background-color: bisque;
+     width: 250px;
+     
+    
+     
+
+}
+
+.ImgSize{
+
+    border-radius: 5%;
+    width: 250px;
+    height: 350px;
+    border: solid 2px black;   
+    transition: 0.25s;
+     
+    
+}
+.ImgSize:hover{
+
+    box-shadow: 5px 5px 10px gray;
+  transform: scale(0.96);
+}
+
+
+
+.NewPrice{
+
+    color: teal;
+
+}
+
+.OldPrice{
+
+    color:tomato;
+    
+}
+
+.CenterDiv{
+
+  text-align: center;
+  
+}
+
+.foater{
+
+    display: flex;
+    background-image:linear-gradient(90deg, rgba(179,58,18,1) 0%, rgba(194,23,13,1) 20%, rgba(228,53,8,1) 100%); 
+    padding: 20px;
+
+}
+
+.MyName{
+
+    float: left; 
+    color: white;
+}
+
+.facebook{
+    position: absolute;
+     left: 75%;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+
+.instagram{
+
+    position:  absolute; 
+    left: 80%;
+    text-decoration: none;
+    width:40px; 
+    height:40px;
+}
+
+.twitter{
+
+    position:  absolute;
+    left: 85%;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+
+.thanks{
+
+    text-align: center;
+    
+}
+.ImgThanks{
+    width: 250px;
+    height: 250px;
+
+}
+
+.h1Thanks{
+
+    font-size: 300%;
+}
+
+
+.ContactTelefone{
+
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    left: 35%; 
+    top: 30%;
+}
+
+.Contact_Telefone_Text{
+
+    position: absolute;
+     left: 43%;
+      top: 33%;
+}
+
+
+
+.ContactFacebook{
+
+    width: 60px;
+    height: 60px;
+    position: absolute;
+     left: 35%; 
+     top: 42%;
+
+}
+
+.Contact_Facebook_Text{
+
+    position: absolute;
+     left: 43%;
+      top: 45%;
+}
+
+
+.ContactInstagram{
+
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    left: 35%;
+     top: 54%;
+    
+}
+
+.Contact_Instagram_Text{
+
+    position: absolute; 
+    left: 43%; 
+    top: 57%;
+}
+
+
+.ContactTwitter{
+
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    left: 35%; 
+    top: 66%;
+}
+
+.Contact_Twitter_Text{
+
+    position: absolute; 
+    left: 43%; 
+    top: 69%;
+}
+
